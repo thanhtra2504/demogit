@@ -1,0 +1,245 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper-flex {
+    display: flex;
+}
+/* phan ben trai */
+.sidebar {
+    background:  #37474f;
+    /* float: left; */
+    width: 25%;
+}
+/* thong tin ca nhan */
+.personal-info-img  {
+    background:#263238;
+    text-align: center;
+}
+.personal-info-apply {
+    background:#263238;
+}
+img {
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    height: 175px;
+    width: 173px;
+    margin-left: 0;
+}
+.personal-info-apply .name {
+    font-size: 20px;
+    /* margin: 25px 0 0; */
+    line-height: 1;
+    color: white;
+    text-align: center;
+}
+.personal-info-apply .job {
+    font-style: italic;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+li {
+    color:white;
+    font-size: 14px;
+}
+
+/* muc tieu */
+.personal-target .personal-target-title {
+    color: white;
+    font-size: 10px;
+    padding:20px 0 0 13px;
+}
+.personal-target .personal-target-info {
+    color: white;
+    padding-left: 13px;
+}
+/* kinh nghiem */
+.personal-skill .personal-skill-title {
+    color: white;
+    font-size: 12px;
+    padding:12px 0 0 13px;
+}
+.personal-skill{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+}
+.personal-skill .skill-bar {
+    margin: 20px 0;
+}
+.personal-skill .skill-bar:first-child {
+    margin-top: 0px;
+}
+.personal-skill .skill-bar .info span {
+    font-size:15px;
+    font-weight: 500;
+}
+.personal-skill .skill-bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color:white;
+}
+.skill-bar .progress-line span {
+    height: 100%;
+    width: 80%;
+    background: #263238;
+    position: absolute;
+}
+.skill-bar .progress-line.office_info span {
+    width: 60%;
+}
+.skill-bar .progress-line.english span {
+    width: 80%;
+}
+
+/* so thich */
+.personal-hobby-title {
+    color: white;
+    font-size: 15px;
+    padding:20px 0 0 13px;
+}
+
+/* phan ben phai */
+.content {
+    /* float: right; */
+    width: 60%;
+    margin-left:20px;  
+}
+/* css hoc van */
+.personal-education-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.personal-education-title-small .edu-title-small {
+    font-weight: bold;
+    font-size: 15px;
+}
+.personal-education-title-small .edu-time_1 {
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    width:50%;
+}
+.personal-education .personal-education-info {
+    font-size: 13px;
+}
+/* css kinh nghiem */
+
+.personal-ex-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-ex-title-small_1 .ex-title-small_1{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.personal-ex-title-small_1 .ex-time_1 {
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    width:50%;
+}
+.personal-ex .personal-ex-info_1{
+    font-size: 13px;
+}
+
+.personal-ex-title-small_2 .ex-title-small_2{
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.personal-ex-title-small_2 .ex-time_2 {
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    width:50%;
+}
+.personal-ex .personal-ex-info_2{
+    font-size: 13px;
+}
+/* css hoat dong */
+
+.personal-active-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-active-title-small .active-title-small {
+    font-weight: bold;
+    font-size: 15px;
+}
+.personal-active-title-small .active-time {
+    font-weight: bold;
+    font-size: 15px;
+    float: right;
+    width:50%;
+}
+.personal-active .personal-active-info {
+    font-size: 13px;
+}
+/* css chung chi */
+
+.personal-certificate .personal-certificate-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-certificate-info {
+    font-size: 13px;
+}
+.personal-certificate-info .cer-time {
+    font-weight: bold;
+    font-size: 13px;
+    float: right;
+    width:50%;
+}
+/* CSS giai thuong */
+
+.personal-prize .personal-prize-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-prize-info {
+    font-size: 13px;
+}
+.personal-prize-info .prize-time {
+    font-weight: bold;
+    font-size: 13px;
+    float: right;
+    width:50%;
+}
+/* css thong tin them */
+.personal-more-info .personal-more-info-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-more-info-info {
+    font-size: 13px;
+}
+
+/* css nguoi tham chieu */
+.personal-refe .personal-refe-title {
+    color:#263238;
+    font-size: 20px;
+    font-weight: bold;
+}
+.personal-refe-info {
+    font-size: 13px;
+}
+
+
+
+
+

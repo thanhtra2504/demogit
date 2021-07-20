@@ -1,0 +1,83 @@
+
+html {
+    line-height: 1.5;
+    font-size: 17.6px;
+}
+
+.news {
+    width: 860px;
+    margin: 0 auto;  
+}
+.topic {
+    width: 590px;
+    margin: 0 auto;
+    
+}
+.topic .topic-1 {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    
+}
+.topic .title-big p  {
+    margin: 0 auto;
+    font-size: 41.6px;
+    font-weight: 700;
+    font-family: 'Noto Serif',serif;
+}
+.topic .title-big .name {
+    font-size: 13.6px;
+    font-weight: 700;
+}
+.topic .title-big .time {
+    font-size: 13.6px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: #888;
+}
+.info .info-1 {
+    font-weight: 700;
+    padding: 5px 0 10px;
+}
+.images img {
+    width: 860px;
+    height: 580px;
+} 
+.images .images-title {
+    font-size: 14.08px;
+    color: #444;
+}
+.content-1 {
+    padding: 10px;
+    width: 590px;
+    margin: 0 auto;
+}
+.content-1 .title {
+    font-size: 28.8px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+.content-1 .question {
+    font-weight: 700;
+    font-style: italic;
+    color: #444444;
+    font-size: 20px;
+}
+.content-2 {
+    padding: 10px;
+    width: 590px; 
+    margin: 0 auto;
+}
+.content-2 .title {
+    font-size: 28.8px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+.content-2 .question {
+    font-weight: 700;
+    font-style: italic;
+    color: #444444;
+    font-size: 20px;
+}
